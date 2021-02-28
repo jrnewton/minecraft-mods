@@ -1,3 +1,7 @@
+# Pre-reqs 
+1. Determine mods being installed
+2. The mod version seems to correspond to the MC server version, E.g. Flan's Mod 1.12.2 requires Minecraft server 1.12.2 and Forge 1.12.2
+
 # Server side steps
 1. sudo apt install default-jre
 2. Download minecraft server: https://www.minecraft.net/en-us/download/server  
@@ -8,8 +12,7 @@
 java -Xmx1024M -Xms1024M -jar minecraft_server.1.16.4.jar nogui
 ```
 5. Modify minecraft.properties as needed
-6. Download https://flansmod.com/
-7. Follow https://www.minecraftmods.com/how-to-install-mods-for-minecraft-forge/
 
 # Client side steps
-1. Create an install profile in minecraft client for server version
+1. Download https://flansmod.com/ for MC version used above.
+2. Follow https://www.minecraftmods.com/how-to-install-mods-for-minecraft-forge/
